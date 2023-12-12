@@ -56,7 +56,7 @@ public class Playlist {
     }
 
         public void duracaoPlaylist() {
-
+            duracaoTotal = 0;
             for(Musica musica : playlistMusicas) {
                 duracaoTotal = duracaoTotal + musica.getDuracaoMusica();
             }
